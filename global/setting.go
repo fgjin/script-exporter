@@ -8,7 +8,7 @@ import (
 var (
 	Registry    = prometheus.NewRegistry()
 	Respath     string
-	LogPath     = "promlog/prom.log"
+	LogPath     = "applog/exporter.log"
 	AdapterName = "fileRotate" //std|fileRotate
 	Level       = logrus.InfoLevel
 	Port        = ":8080"
