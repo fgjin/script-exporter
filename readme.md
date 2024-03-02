@@ -5,4 +5,4 @@
 scrape_configs:
   - job_name: scripts
     static_configs:
-      - targets: ["localhost:8080"]
+      - targets: ["localhost:9090"]

@@ -11,7 +11,7 @@ var (
 	LogPath     = "applog/exporter.log"
 	AdapterName = "fileRotate" //std|fileRotate
 	Level       = logrus.InfoLevel
-	Port        = ":8080"
+	Port        = ":9090"
 	Compress    = true
 )
 
